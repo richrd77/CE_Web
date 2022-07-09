@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'my-ff';
+    src: url(./EduQLDBeginner-Regular.ttf);
+}
+
+.hightlight-btn {
+    background-color: yellow;
+    font-size: 14px;/*EM stnds for ??*/
+    
+}
+
+.chnge-color {
+    color: red;
+    background-color: black;
+    font-size: 1rem;/*EM stnds for ??*/
+}
+
+
+.em-fnt {
+    font-size: 0.01em;
+}
+
+body {
+    font-family: my-ff;
+}
+
+
+.rem-fnt {
+    font-size: 1rem;
+}
+
+.px-fnt {
+    font-size: 12px;
+    border: 5px solid red;
+}
+
+/* body {
+    background-color: black;
+}
+
+div.p {
+    background-color: yellow;
+    color: black;
+} */

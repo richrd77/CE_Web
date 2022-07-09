@@ -1,0 +1,38 @@
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    flex: 2em;
+}
+
+/* body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+.big-box {
+    /* width: 200px;*/ 
+    flex: 3em;
+}
+
+.txt {
+    /* width: 50px; */
+    flex: 1em;
+}
+/* 
+.box {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 1fr;
+    /* gap: 8px; 
+
+    row-gap: 10em;
+    column-gap: 5em;
+} */
