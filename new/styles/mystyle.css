@@ -36,3 +36,74 @@ body {
     row-gap: 10em;
     column-gap: 5em;
 } */
+
+/*
+Display 
+
+'block' -> occupy the whole screen width wise, set the width
+'inline' -> occupy only children elements width
+'inline-block' -> occupy only children elements width also we set width 
+'inline-flex' ->  
+'flex' -> occupy the whole screen width wise, set the width, used to align child elements
+'grid' -> occupy the whole screen width wise, set the width, used to align child elements
+'none' -> it will not show up on the screen
+*/
+
+/* div {
+    background-color: blue;
+    width: 50vw;
+    display: inline;
+    /* visibility: ; 
+} */
+div.p {
+    background-color: pink;
+    margin: 1em;
+    height: 100px;
+    width: 100px;
+    position: relative;
+
+    /* box-shadow: 0 0 0 50px red; */
+}
+
+span {
+    background-color: yellow;
+    /* display: block; */
+    /*transform: scaleX(2); /*comeback for translateZ; Comeback on transform Matrix*/
+    /* animation: id 5s ease-in-out 0s infinite; */
+
+    position: sticky; /*
+    static -> stack on top of previous element
+    relative -> similar to static but behaves as a starting point
+    absolute -> align with relative elements
+    fixed -> align with viewport
+    sticky -> stick to a point : TODO come up with example
+    */
+
+    /* top:10px; */
+}
+
+@keyframes id {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+span:first-child {
+    /* visibility: unset; */
+/* display: none; */
+/* opacity: 0.025; */
+/* font-weight: bold; */
+/* text-decoration: ; */
+background: red;
+top: 50%;
+right: 50%;
+}
+
+span {
+    text-transform: lowercase;
+}
+
+/* div */

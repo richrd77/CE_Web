@@ -1,0 +1,21 @@
+button {
+    background: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    outline: none;
+    transition: background-color ease 5s, transform ease 5s;
+}
+
+button:hover,
+button:focus {
+    background: red;
+    color: white;
+    transform: scale(1.1);
+}
+
+button:active {
+    color: yellow;
+}
+
+/*TODO: pseudo elements and basics of animation*/
