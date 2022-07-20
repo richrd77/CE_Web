@@ -18,4 +18,22 @@ button:active {
     color: yellow;
 }
 
-/*TODO: pseudo elements and basics of animation*/
+/*TODO: pseudo elements, bgImages and basics of animation*/
+
+p::before {
+    content: attr(data-key);
+}
+
+p::after {
+    content: '"';
+    background-color: red;
+    color: blue;
+}
+
+div {
+    /* background-image: url('https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_QL75_UY562_CR0,0,380,562_.jpg');
+    background-position: center;
+    bg */
+    height: 200px;
+    width: 100px;
+}

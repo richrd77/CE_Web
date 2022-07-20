@@ -1,0 +1,26 @@
+.prent {
+    background-color: red;
+    /* height: fit-content; */
+    /* min-height: 100px; */
+    height: 20em;
+    /* max-height: 100px; */
+    /* min-width: 100px; */
+    max-width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child {
+    background-color: yellow;
+    height: 10em;
+    width: 300px;
+}
+
+.btn-em{
+    padding: 1em;
+    margin: 1em;
+}
+.btn-px{
+    padding: 14px;
+    margin: 14px;
+}
