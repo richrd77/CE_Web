@@ -1,4 +1,4 @@
-button {
+/* button {
     background: white;
     color: red;
     border: 1px solid red;
@@ -18,7 +18,7 @@ button:active {
     color: yellow;
 }
 
-/*TODO: pseudo elements, bgImages and basics of animation*/
+/*TODO: pseudo elements, bgImages and basics of animation/
 
 p::before {
     content: attr(data-key);
@@ -33,7 +33,41 @@ p::after {
 div {
     /* background-image: url('https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_QL75_UY562_CR0,0,380,562_.jpg');
     background-position: center;
-    bg */
+    bg /
     height: 200px;
     width: 100px;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* 
+div.circle {
+    height: 250px;
+    width: 500px;
+    /* border-radius: 50%; *
+    border: 5px solid red;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 30%;
+} */
+
+div.txt-cloud {
+    height: 100px;
+    width: 200px;
+    border: 5px solid red;
+}
+
+div.txt-cloud::before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 5px solid red;
+    /* transform: rotate(45deg) translate(20px,47px); */
+    position: absolute;
+    
 }
