@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-blink {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation: jump 1s ease-in 0s infinite;
+}
+
+.blue {
+    background-color: blue;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* 
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+        background-color: red;
+    }
+    15% {
+        transform: translateY(-10px);
+    }
+    25% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+        background-color: blue;
+    }
+    65% {
+        transform: translateY(-10px);
+    }
+    75% {
+        transform: translateY(0);
+    }
+    90% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+} */
+
+@keyframes chnge {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: blue;
+    }
+}
