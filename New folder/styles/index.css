@@ -16,7 +16,7 @@ body {
     width: 100px;
     background-color: red;
     border-radius: 50%;
-    animation: jump 1s ease-in 0s infinite;
+    animation: circle 2s ease-in-out 0s 2 alternate forwards;
 }
 
 .blue {
@@ -83,5 +83,14 @@ body {
     }
     to {
         background-color: blue;
+    }
+}
+
+@keyframes circle {
+    0% {
+        border-radius: 0;
+    }
+    100% {
+        border-radius: 50%;
     }
 }

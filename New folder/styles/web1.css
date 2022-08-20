@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    /* background-color: red; */
+    /* transition: all ease-in-out 1s;
+    transform: translateX(-10px); */
+    overflow-x: none;
+}
+
+header {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+}
+
+.card {
+    height: 250px;
+    width: 200px;
+    border-radius: 2px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ic {
+    font-size: 6em;
+    flex: 3;
+}
+
+.icos {
+    height: 250px;
+    width: 200px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    padding: 1em;
+}
+
+.soc {
+    font-size: 3.5em;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+    animation: slide 1s ease-in 0s 1 forwards;
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+@keyframes slide {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-twitter {
+    color: #1c9aef;
+}
+
+.fa-instagram {
+    color: #ec667e;
+}
+
+.fa-facebook-f {
+    color: #1877f2;
+}
